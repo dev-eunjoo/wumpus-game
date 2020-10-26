@@ -1,0 +1,60 @@
+/* Eunjoo Na, 000811369
+ * Date: 2020.10.20
+ * Description: save.css for wumpus game web application. 
+ *              It describes the presentation of save.php 
+ */
+
+body {
+    background-color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: silver;
+
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 6%;
+}
+
+.reft{
+    grid-template-columns: 1;
+}
+
+.right{
+    grid-template-columns: 2;
+}
+
+
+table {
+    margin: auto;
+}
+
+table,
+td,
+th {
+    border: 1px solid silver;
+    border-collapse: collapse;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(95, 95, 95);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: silver;
+    padding: 30px;
+    margin: 5px;
+    background-color: forestgreen;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+div{
+    text-align: center;
+}
